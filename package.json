@@ -1,0 +1,49 @@
+{
+  "name": "dsh-tarot-divination",
+  "version": "1.32.0",
+  "type": "module",
+  "main": "./index.js",
+  "license": "MIT",
+  "description": "Tarot readings in DSH: a table overlay that deals and flips real Rider-Waite cards, a tarot_reading tool the model interprets, and a tarot_history tool for reviewing past readings.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "tarot",
+    "divination",
+    "cards"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-tarot-divination.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-tarot-divination#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-tarot-divination/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-tool"
+      ]
+    }
+  }
+}

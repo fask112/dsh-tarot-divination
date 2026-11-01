@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Tarot">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#251a44"/>
+      <stop offset="1" stop-color="#120d23"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0d79b"/>
+      <stop offset="1" stop-color="#c79a45"/>
+    </linearGradient>
+  </defs>
+  <rect x="14" y="6" width="36" height="52" rx="5" fill="url(#tg)" stroke="url(#gold)" stroke-width="1.8"/>
+  <rect x="18.5" y="10.5" width="27" height="43" rx="3" fill="none" stroke="url(#gold)" stroke-width="0.9" opacity="0.65"/>
+  <path d="M32 20.5a8.6 8.6 0 1 0 6.2 14.5 9.4 9.4 0 0 1-6.2-14.5z" fill="url(#gold)"/>
+  <circle cx="23" cy="22" r="1.2" fill="#f0d79b"/>
+  <circle cx="41" cy="26" r="0.9" fill="#f0d79b"/>
+  <circle cx="39" cy="19" r="1.1" fill="#f0d79b"/>
+  <path d="M23.5 40.5h17" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round" opacity="0.8"/>
+  <path d="M27 45.5h10" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+</svg>

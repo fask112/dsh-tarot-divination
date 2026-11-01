@@ -1,0 +1,3 @@
+- insert:
+    - id: tarot-divination
+      name: '@local/tarot-divination'
