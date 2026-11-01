@@ -14,11 +14,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-tarot-divination.git"
+    "url": "git+https://github.com/fask112/dsh-tarot-divination.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-tarot-divination#readme",
+  "homepage": "https://github.com/fask112/dsh-tarot-divination#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-tarot-divination/issues"
+    "url": "https://github.com/fask112/dsh-tarot-divination/issues"
   },
   "exports": {
     ".": "./index.js",
